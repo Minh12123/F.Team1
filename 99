@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HipHop Video Blog</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        .video-container {
+            width: 80%;
+            margin: 20px auto;
+            background: #222;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        video {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HipHop Video Blog</h1>
+    
+    <div class="video-container">
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+        <p class="description">Video nhảy freestyle cực chất!</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+        <p class="description">Trận battle hip-hop đỉnh cao.</p>
+    </div>
+</body>
+</html>
